@@ -25,6 +25,7 @@ export function Genarator11() {
           <li>05 - Версия</li>
         </ul>
         <h3>Газогенератора «GE Jenbacher». </h3>
+
         <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRjrPzlFG0bN8GVkW7JMR1xtMd3z3SdwOfYRVXZ4ZoqnxPUem2G2iy-rjdLbjsQzaEyux9dekyLVFp-/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="749" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
         <p>
@@ -60,11 +61,7 @@ export function Genarator11() {
           сетевого электропитания, автоматически останавливается после 5
           минутной охлаждении и восстанавливается в состояние ожидания.
         </p>
-        <Ochistka2Img
-          link={
-            'https://ik.imagekit.io/ATG/image_2023-07-11_10-29-21.png?updatedAt=1689053397321'
-          }
-        />
+      
         <p>
           Так же установлены 2 источника бесперебойного питания UPS
           параллельного соединения мощностью B8033 20kVA-24KW В распределение
@@ -83,11 +80,7 @@ export function Genarator11() {
           <li>Освящения АБК и компьютеры в диспетчерской.</li>
         </ol>
 
-        <VideoCom
-          link={
-            'https://ik.imagekit.io/ATG/video/%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D1%80%D0%BA%D0%B0_%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D0%B5_%D0%B2_%D0%9C%D0%A1%D0%A1.mp4?updatedAt=1689056266274'
-          }
-        />
+       
       </div>
     </>
   )
