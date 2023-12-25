@@ -294,7 +294,7 @@ export const navigation = [
   {
     title: 'MS',
     links: [
-      { title: 'Замерная станция УЗРГ', href: '/wkc3/wkc3' },
+      { title: 'Замерная станция УЗРГ', href: '/ms/main' },
       {
         title: 'Список инженеров станции',
         href: '/ms/engineers',
@@ -302,11 +302,10 @@ export const navigation = [
       },
       { title: 'Зона замера газа', href: '/ms/kabina' },
 
-      { title: 'Вспомогательное оборудование', href: '/wkc3/mechanics' },
+      { title: 'Вспомогательное оборудование', href: '/ms/mechanics' },
       /* { title: 'Зона АВО', href: '/wkc3/avo' }, */
-      { title: 'Система электроснабжения', href: '/wkc3/electr' },
+      { title: 'Система электроснабжения', href: '/ms/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
-      { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
       { title: 'Все презентации MS', href: '/ms/presentation' },
       { title: 'Коммент', href: '/ms/comment' },
     ],
@@ -327,9 +326,9 @@ export const navigation = [
       { title: 'Зона Компримирование (ГПА)', href: '/ucs1/gpa' },
       { title: 'Вспомогательное оборудование', href: '/ucs1/mechanics' },
       /* { title: 'Зона АВО', href: '/wkc3/avo' }, */
-      { title: 'Система электроснабжения', href: '/wkc3/electr' },
+      { title: 'Система электроснабжения', href: '/ucs1/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
-      { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Система пожаротушения', href: '/ucs1/firefighting' },
       { title: 'Все презентации UCS1', href: '/ucs1/presentation' },
       { title: 'Коммент', href: '/ucs1/comment' },
     ],
@@ -337,21 +336,18 @@ export const navigation = [
   {
     title: 'GCS',
     links: [
-      { title: 'Компрессорная станция GCS', href: '/wkc3/wkc3' },
+      { title: 'Компрессорная станция GCS', href: '/gcs/main' },
       {
         title: 'Список инженеров станции',
         href: '/gcs/engineers',
         pageClassName: '',
       },
-      /* { title: 'Система ESD  ', href: '/wkc3/esd' },
-      /* { title: 'Зона очистки газа', href: '/wkc3/cleaning' }, */
-      /* { title: 'БПТГ', href: '/wkc3/bptg' }, */
       { title: 'Зона Компримирование (ГПА)', href: '/gcs/gpa' },
       { title: 'Вспомогательное оборудование', href: '/gcs/mechanics' },
       /* { title: 'Зона АВО', href: '/wkc3/avo' }, */
-      { title: 'Система электроснабжения', href: '/wkc3/electr' },
+      //{ title: 'Система электроснабжения', href: '/gcs/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
-      { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      //{ title: 'Система пожаротушения', href: '/gcs/firefighting' },
       { title: 'Все презентации GCS', href: '/gcs/presentation' },
       { title: 'Коммент', href: '/gcs/comment' },
 
@@ -372,9 +368,9 @@ export const navigation = [
       { title: 'Зона Компримирование (ГПА)', href: '/ucs3/gpa' },
       { title: 'Вспомогательное оборудование', href: '/ucs3/mechanics' },
       /* { title: 'Зона АВО', href: '/wkc3/avo' }, */
-      { title: 'Система электроснабжения', href: '/wkc3/electr' },
+      { title: 'Система электроснабжения', href: '/ucs3/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
-      { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Система пожаротушения', href: '/ucs3/firefighting' },
       { title: 'Все презентации UCS3', href: '/ucs3/presentation' },
       { title: 'Коммент', href: '/ucs3/comment' },
 
@@ -383,7 +379,7 @@ export const navigation = [
   {
     title: 'UKMS',
     links: [
-      { title: 'Замерная станция УУЗРГ', href: '/ukms/ukms' },
+      { title: 'Замерная станция УУЗРГ', href: '/ukms/main' },
       {
         title: 'Список инженеров станции',
         href: '/ukms/engineers',
@@ -391,11 +387,11 @@ export const navigation = [
       },
       { title: 'Зона замера газа', href: '/ukms/kabina' },
 
-      { title: 'Вспомогательное оборудование', href: '/wkc3/mechanics' },
+      { title: 'Вспомогательное оборудование', href: '/ukms/mechanics' },
       /* { title: 'Зона АВО', href: '/wkc3/avo' }, */
-      { title: 'Система электроснабжения', href: '/wkc3/electr' },
+      { title: 'Система электроснабжения', href: '/ukms/electr' },
       /* { title: 'КСВ', href: '/wkc3/ksv' }, */
-      { title: 'Система пожаротушения', href: '/wkc3/firefighting' },
+      { title: 'Система пожаротушения', href: '/ukms/firefighting' },
       { title: 'Все презентации UKMS', href: '/ukms/presentation' },
       { title: 'Коммент', href: '/ukms/comment' },
 
